@@ -3,10 +3,12 @@
   "version": "0.0.0",
   "private": true,
   "type": "module",
+  "homepage": "https://reol1017.github.io/bay-s-web",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "deploy": "gh-pages -d dist",
     "test:unit": "vitest",
     "lint:oxlint": "oxlint . --fix -D correctness --ignore-path .gitignore",
     "lint:eslint": "eslint . --fix",
@@ -14,6 +16,7 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "bay-web": "file:",
     "bootstrap": "^5.3.5",
     "element-plus": "^2.9.8",
     "pinia": "^3.0.1",
