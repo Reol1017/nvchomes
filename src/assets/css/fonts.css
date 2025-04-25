@@ -1,0 +1,32 @@
+/* fonts.css */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
+
+/* Apply Raleway font to all elements */
+* {
+  font-family: 'Raleway', sans-serif !important;
+}
+
+/* Ensure headings use Raleway */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Raleway', sans-serif !important;
+  font-weight: 600;
+}
+
+/* Ensure body text uses Raleway */
+body,
+p,
+div,
+span,
+a,
+button,
+input,
+textarea,
+select,
+option {
+  font-family: 'Raleway', sans-serif !important;
+}
