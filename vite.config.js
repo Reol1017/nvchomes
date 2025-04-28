@@ -4,7 +4,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 import { fileURLToPath, URL } from 'node:url'
 
 export default defineConfig({
-  base: '/bay-s-web/', // 你的 GitHub 仓库名
+  base: '/', // 你的 GitHub 仓库名
   plugins: [vue(), vueDevTools()],
   resolve: {
     alias: {
