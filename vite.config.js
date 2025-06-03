@@ -4,7 +4,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 import { fileURLToPath, URL } from 'node:url'
 
 export default defineConfig({
-  base: '/', // 你的 GitHub 仓库名
+  base: '/', // 使用自定义域名时设置为根路径
   plugins: [vue(), vueDevTools()],
   resolve: {
     alias: {

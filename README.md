@@ -28,6 +28,16 @@ npm run dev
 npm run build
 ```
 
+### Deploy to GitHub Pages
+
+```sh
+# 使用npm脚本部署
+npm run deploy
+
+# 或者使用部署脚本
+sh deploy.sh
+```
+
 ### Run Unit Tests with [Vitest](https://vitest.dev/)
 
 ```sh
